@@ -8,9 +8,10 @@
 - hammer out a working initial version of the read-only aspect of the CMS outputting pages
   - loads files from disk
   - caches in memory (with interfaces possible for other stores later)
-  - do not work about editing yet
+  - do not worry about editing yet
   - should be able to make a basic site show up just by editing data files on disk, config
   - will need to decide on data format (must preserve comments!)
+- see if we can get Yoast-like functionality in here with SEO stuff happening
 - regroup, decide if we want to start on Admin UI or work on the CMS API endpoints
 
 - Maybe we need a separate server as a sort of watchdog application that handles filesystem changes and reversion, etc. This way if a source code change renders the project un-buildable, you can unbrick your app.
